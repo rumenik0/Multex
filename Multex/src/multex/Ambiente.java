@@ -27,9 +27,9 @@ public class Ambiente {
             try{
                 Thread.sleep((long)(Math.random()*1000)); 
             }catch(InterruptedException e){
-                System.out.print(processo + "Sleep!");
+                System.out.println(processo + "Sleep!");
             }
-            System.out.print(processo + " está atualmente na região "+ regioes);
+            System.out.println(processo + " está atualmente na região "+ regioes);
             regioes -= 1;
            
         }
